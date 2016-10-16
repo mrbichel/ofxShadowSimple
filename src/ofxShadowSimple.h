@@ -20,6 +20,8 @@ public:
     void setLightPosition( ofVec3f aPos );
     void setLightLookAt( ofVec3f aPos, ofVec3f upVector = ofVec3f(0, 1, 0) );
     
+    ofTexture & getDepthTexture();
+    
     void beginDepthPass();
     void endDepthPass();
     

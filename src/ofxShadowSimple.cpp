@@ -254,6 +254,11 @@ void ofxShadowSimple::setIntensity( float aIntensity ) {
     _intensity = aIntensity;
 }
 
+ofTexture & ofxShadowSimple::getDepthTexture() {
+    return shadowFbo.getDepthTexture();
+}
+
+
 
 
 
